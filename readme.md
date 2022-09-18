@@ -2,6 +2,11 @@
 
 CovidMis20 dataset (COVID-19 Misinformation 2020 dataset) helps researchers differentiate between fake and real news related to COVID-19 on Twitter; CovidMis20 includes around 1,375,592 tweets from February to July 2020; also, CovidMis20 can be automatically updated to fetch the latest news.
 
+If you use this dataset, we would appreciate it if you could cite our paper:
+```
+A. Mulahuwaish, M. Osti, K. Gyorick, M. Maabreh, A. Gupta, and B. Qolomany, “CovidMis20: COVID-19 Misinformation Detection System on Twitter Tweets using Deep Learning Models,” in the 14th International Conference on Intelligent Human Computer Interaction (IHCI-2022), Tashkent, Uzbekistan, Oct. 2022.
+```
+
 ## Dataset Collection and Curation:
  
 We collected more than 1.5 billion coronavirus-related tweets for more than 40 million users from January 22, 2020, until May 15, 2022, leveraging the Twitter standard search application programming interface (API) and Tweetpy Python library. A set of predefined search English keywords used such as (“corona,” “coronavirus,” “Coronavirus,” “COVID-19”, “stay at home,” “lockdown,” “Social Distancing,” “Epidemic,” “pandemic,” and “outbreak”), which are the most widely used scientific and news media terms relating to the novel coronavirus. We extracted and stored the text and metadata of the tweets, such as timestamp, number of likes and retweets, hashtags, language, and user profile information, including user id, username, user location, number of followers, and number of friends.
